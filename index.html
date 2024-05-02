@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/stylemq.css">
 </head>
 <body>
     <main>
@@ -14,6 +15,17 @@
                 <h1>login</h1>
                 <p>Seja bem vindo nananannanan</p>
                 <form action="login.php" method="post">
+                    <div class="campo">
+                        <label for="ilogin">login</label> <br>
+                        <input type="email" name="login" id="ilogin" placeholder="seu email" required>
+                    </div> <br>
+                    <div class="campo">
+                        <label for="isenha">Senha</label> <br>
+                        <input type="password" name="senha" id="isenha"
+                        placeholder="sua senha" required>
+                    </div>
+                    <input type="submit" value="entrar">
+
 
                 </form>
             </div>
